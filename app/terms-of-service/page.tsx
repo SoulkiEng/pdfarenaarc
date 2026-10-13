@@ -31,7 +31,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-3">1. Acceptance of Terms</h2>
             <p>
-              By accessing or using iLovePDF Pro Suite, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you disagree with any part of these terms, you may not use our services.
+              By accessing or using PDFArenaArc, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you disagree with any part of these terms, you may not use our services.
             </p>
           </section>
 
@@ -52,14 +52,14 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-3">4. Disclaimer of Warranty</h2>
             <p>
-              The materials and services on iLovePDF Pro Suite are provided on an &quot;as is&quot; and &quot;as available&quot; basis without warranties of any kind, whether express or implied. While we strive for absolute mathematical precision in document operations, we do not warrant that our service will be uninterrupted or error-free.
+              The materials and services on PDFArenaArc are provided on an &quot;as is&quot; and &quot;as available&quot; basis without warranties of any kind, whether express or implied. While we strive for absolute mathematical precision in document operations, we do not warrant that our service will be uninterrupted or error-free.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-3">5. Limitation of Liability</h2>
             <p>
-              Under no circumstances shall iLovePDF Pro Suite, its developers, or affiliates be liable for any direct, indirect, incidental, consequential, or punitive damages resulting from your use of or inability to use this service.
+              Under no circumstances shall PDFArenaArc, its developers, or affiliates be liable for any direct, indirect, incidental, consequential, or punitive damages resulting from your use of or inability to use this service.
             </p>
           </section>
 

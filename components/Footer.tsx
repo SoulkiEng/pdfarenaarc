@@ -57,7 +57,7 @@ export default function Footer() {
                 <FileText className="w-5 h-5" />
               </div>
               <span className="text-2xl font-black text-white">
-                iLove<span className="text-brand-500">PDF</span><span className="text-xs ml-1 text-brand-400">PRO</span>
+                PDF<span className="text-brand-500">Arena</span>Arc<span className="text-xs ml-1 text-brand-400">PRO</span>
               </span>
             </Link>
             <p className="text-sm text-gray-400 max-w-sm mb-6 leading-relaxed">
@@ -167,7 +167,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>
-            © {new Date().getFullYear()} iLovePDF Pro Suite. All rights reserved.
+            © {new Date().getFullYear()} PDFArenaArc Suite. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/privacy-policy" className="hover:text-gray-300 transition-colors">Privacy</Link>

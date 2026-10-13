@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://myilovepdf.com/sitemap.xml',
+    sitemap: 'https://pdfarenaarc.com/sitemap.xml',
   };
 }

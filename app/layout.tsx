@@ -5,15 +5,15 @@ import Footer from '@/components/Footer';
 import CookieConsent from '@/components/CookieConsent';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://myilovepdf.com'), // Replace with user's Hostinger domain
+  metadataBase: new URL('https://pdfarenaarc.com'),
   title: {
-    default: 'iLovePDF Pro - Free Online PDF Tools: Merge, Split, Compress & Convert',
-    template: '%s | iLovePDF Pro',
+    default: 'PDFArenaArc - Free Online PDF Tools: Merge, Split, Compress & Convert',
+    template: '%s | PDFArenaArc',
   },
   description:
     'Every tool you need to work with PDFs in one place. 100% free, fast, and secure client-side PDF editor: merge, split, compress, convert, rotate, protect, and watermark PDFs.',
   keywords: [
-    'ilovepdf',
+    'pdfarenaarc',
     'pdf tools',
     'merge pdf',
     'split pdf',
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     'pdf editor online',
     'secure pdf tools',
   ],
-  authors: [{ name: 'iLovePDF Pro Team' }],
-  creator: 'iLovePDF Pro',
-  publisher: 'iLovePDF Pro',
+  authors: [{ name: 'PDFArenaArc Team' }],
+  creator: 'PDFArenaArc',
+  publisher: 'PDFArenaArc',
   robots: {
     index: true,
     follow: true,
@@ -40,15 +40,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://myilovepdf.com',
-    title: 'iLovePDF Pro - Online PDF Tools for PDF Lovers',
+    url: 'https://pdfarenaarc.com',
+    title: 'PDFArenaArc - Online PDF Tools for PDF Lovers',
     description:
       'Completely free, fast, and secure online PDF tools. Merge, split, compress, convert, rotate, and protect PDFs directly in your browser without file limits.',
-    siteName: 'iLovePDF Pro',
+    siteName: 'PDFArenaArc',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'iLovePDF Pro - Online PDF Tools',
+    title: 'PDFArenaArc - Online PDF Tools',
     description: '100% free client-side PDF tools: merge, split, compress, and edit PDFs safely.',
   },
 };

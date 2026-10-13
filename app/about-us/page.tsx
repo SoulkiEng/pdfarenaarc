@@ -19,7 +19,7 @@ export default function AboutUsPage() {
             <Sparkles className="w-8 h-8" />
           </div>
           <h1 className="text-3xl sm:text-5xl font-black text-gray-950">
-            About iLovePDF Pro Suite
+            About PDFArenaArc
           </h1>
           <p className="mt-3 text-base text-gray-600 max-w-xl mx-auto">
             Democratizing document productivity with uncompromising privacy and zero subscription barriers.
@@ -35,7 +35,7 @@ export default function AboutUsPage() {
               Every day, millions of students, lawyers, healthcare workers, accountants, and freelancers need to merge agreements, sign documents, split pages, or reduce file sizes. Unfortunately, most conventional PDF software either demands exorbitant monthly fees or uploads private documents to unknown cloud servers.
             </p>
             <p className="mt-4">
-              We founded <strong>iLovePDF Pro Suite</strong> with a clear, uncompromising vision: <em>Make professional-grade document tools 100% free, lightning fast, and natively private for everyone around the world.</em>
+              We founded <strong>PDFArenaArc</strong> with a clear, uncompromising vision: <em>Make professional-grade document tools 100% free, lightning fast, and natively private for everyone around the world.</em>
             </p>
           </div>
 

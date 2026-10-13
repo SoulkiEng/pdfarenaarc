@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { TOOLS } from '@/lib/toolsConfig';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://myilovepdf.com';
+  const baseUrl = 'https://pdfarenaarc.com';
 
   const toolUrls: MetadataRoute.Sitemap = TOOLS.map((tool) => ({
     url: `${baseUrl}/${tool.slug}`,

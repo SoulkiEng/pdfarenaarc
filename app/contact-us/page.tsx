@@ -53,7 +53,7 @@ export default function ContactUsPage() {
                 </div>
                 <div>
                   <span className="text-xs text-gray-400 font-semibold block">Official Support</span>
-                  <span className="text-xs font-bold text-gray-900">support@myilovepdf.com</span>
+                  <span className="text-xs font-bold text-gray-900">support@pdfarenaarc.com</span>
                 </div>
               </div>
 

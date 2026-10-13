@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-gray-900 mb-3">1. Information We Do Not Collect</h2>
             <p>
-              We do not inspect, intercept, process, copy, or retain any files you manipulate on iLovePDF Pro Suite. When you select a document or image, your web browser downloads the processing library and completes the operation entirely within your computer’s local sandbox memory.
+              We do not inspect, intercept, process, copy, or retain any files you manipulate on PDFArenaArc. When you select a document or image, your web browser downloads the processing library and completes the operation entirely within your computer’s local sandbox memory.
             </p>
           </section>
 

@@ -40,7 +40,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-xl sm:text-2xl font-black tracking-tight text-gray-900 group-hover:text-brand-600 transition-colors">
-                iLove<span className="text-brand-500">PDF</span><span className="text-xs ml-1 font-semibold px-1.5 py-0.5 rounded bg-brand-50 text-brand-600 border border-brand-200">PRO</span>
+                PDF<span className="text-brand-500">Arena</span>Arc<span className="text-xs ml-1 font-semibold px-1.5 py-0.5 rounded bg-brand-50 text-brand-600 border border-brand-200">PRO</span>
               </span>
               <span className="text-[10px] text-gray-400 font-medium tracking-wider -mt-1 hidden sm:block">
                 100% PRIVATE & FAST PDF TOOLS
