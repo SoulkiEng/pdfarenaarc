@@ -17,11 +17,21 @@
     "AlternativeTo.net": {
       "status": "SUBMITTED",
       "date": "2026-10-15",
-      "alternativesLinked": ["iLovePDF", "Smallpdf", "Adobe Acrobat", "Sejda"]
+      "alternativesLinked": [
+        "iLovePDF",
+        "Smallpdf",
+        "Adobe Acrobat",
+        "Sejda"
+      ]
     },
     "SaaSHub.com": {
-      "status": "QUEUED",
-      "action": "Next Target"
+      "status": "SUBMITTED",
+      "date": "2026-10-15",
+      "competitorsLinked": [
+        "iLovePDF",
+        "Smallpdf",
+        "Adobe Acrobat"
+      ]
     },
     "Toolify.ai": {
       "status": "QUEUED",
@@ -39,6 +49,11 @@
   "dailyExecutionQuota": {
     "maxCommentsPerDay": 4,
     "minRestMinutesBetweenActions": 45,
-    "activeSubreddits": ["r/USCIS", "r/tax", "r/privacy", "r/college"]
+    "activeSubreddits": [
+      "r/USCIS",
+      "r/tax",
+      "r/privacy",
+      "r/college"
+    ]
   }
 }
