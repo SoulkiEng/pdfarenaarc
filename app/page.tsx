@@ -11,7 +11,8 @@ import {
   Cpu, 
   ArrowRight,
   CheckCircle2,
-  Lock
+  Lock,
+  Download
 } from 'lucide-react';
 import { TOOLS, CATEGORIES, ToolMeta } from '@/lib/toolsConfig';
 import ToolCard from '@/components/ToolCard';
@@ -205,6 +206,163 @@ export default function HomePage() {
 
           </div>
 
+        </div>
+      </section>
+
+      {/* Chrome Extension Modern Showcase Section */}
+      <section id="extension-section" className="scroll-mt-24 py-16 bg-gray-50 border-b border-gray-150">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-gray-900 to-slate-950 text-white p-8 sm:p-12 lg:p-16 border border-gray-800 shadow-2xl">
+            
+            {/* Ambient background glow */}
+            <div className="absolute top-0 right-0 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
+
+            <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+              
+              {/* Left Column: Copy & Actions */}
+              <div className="lg:col-span-7 space-y-6">
+                
+                {/* Pill */}
+                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15 text-xs font-bold text-white backdrop-blur-md">
+                  <svg className="w-4 h-4" viewBox="0 0 24 24">
+                    <path fill="#EA4335" d="M12 2C8.6 2 5.6 3.7 3.8 6.4L7.9 13.5C8.3 10.5 10.8 8.2 13.8 8.2H21.5C20.1 4.5 16.4 2 12 2Z"/>
+                    <path fill="#4285F4" d="M21.5 8.2H13.8C14.7 9.8 14.8 11.7 14.1 13.3L10 20.4C10.7 20.5 11.3 20.6 12 20.6C16.9 20.6 21 17.1 21.9 12.4C22.1 11 22 9.6 21.5 8.2Z"/>
+                    <path fill="#FBBC05" d="M12 20.6C9.6 20.6 7.4 19.4 6 17.5L2.4 11.2C2.1 11.8 2 12.4 2 13.1C2 18.2 5.9 22.4 11 22.6L14.1 17.3C13.5 19.3 12.8 20.6 12 20.6Z"/>
+                    <circle cx="12" cy="12" r="4.2" fill="#FFFFFF"/>
+                    <circle cx="12" cy="12" r="3.2" fill="#1A73E8"/>
+                  </svg>
+                  <span>OFFICIAL CHROME EXTENSION</span>
+                  <span className="text-[10px] bg-brand-500 text-white px-2 py-0.5 rounded-full font-black">100% FREE</span>
+                </div>
+
+                {/* Heading */}
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight">
+                  Work 10x Faster with the{' '}
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 via-rose-300 to-red-400">
+                    PDFArenaArc Extension
+                  </span>
+                </h2>
+
+                {/* Subtitle */}
+                <p className="text-gray-300 text-sm sm:text-base leading-relaxed max-w-xl">
+                  Never leave your active tab or search Google again. Access Merge, Compress under 200KB, E-Sign, and Redaction with a single click right from your browser toolbar.
+                </p>
+
+                {/* Feature checklist */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                  <div className="flex items-center gap-2.5 text-xs sm:text-sm font-semibold text-gray-200">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span>1-Click toolbar quick launch</span>
+                  </div>
+                  <div className="flex items-center gap-2.5 text-xs sm:text-sm font-semibold text-gray-200">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span>100% In-browser offline privacy</span>
+                  </div>
+                  <div className="flex items-center gap-2.5 text-xs sm:text-sm font-semibold text-gray-200">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span>Instant drag & drop workspace</span>
+                  </div>
+                  <div className="flex items-center gap-2.5 text-xs sm:text-sm font-semibold text-gray-200">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span>Free forever, zero registration</span>
+                  </div>
+                </div>
+
+                {/* Action Buttons & Install Guide */}
+                <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4">
+                  <a
+                    href="/pdfarenaarc-chrome-extension.zip"
+                    download="pdfarenaarc-chrome-extension.zip"
+                    className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-bold text-white bg-brand-500 hover:bg-brand-600 shadow-lg shadow-brand-500/30 transition-all hover:scale-105 active:scale-95 cursor-pointer"
+                  >
+                    <Download className="w-4 h-4" />
+                    <span>Download Extension (.ZIP)</span>
+                  </a>
+                  <span className="text-xs text-gray-400">
+                    ⚡ Instant 30-second setup in Chrome
+                  </span>
+                </div>
+
+                {/* Quick 3-Step Instruction Box */}
+                <div className="p-3.5 rounded-xl bg-white/5 border border-white/10 text-xs text-gray-300 max-w-lg space-y-1">
+                  <div className="font-bold text-white text-[11px] uppercase tracking-wider">How to load in Chrome:</div>
+                  <div className="text-[11px] text-gray-400 leading-relaxed">
+                    1. Download & Unzip • 2. Go to <code className="text-brand-300 bg-white/10 px-1 py-0.5 rounded">chrome://extensions</code> • 3. Enable <strong>Developer Mode</strong> & click <strong>Load Unpacked</strong>.
+                  </div>
+                </div>
+
+              </div>
+
+              {/* Right Column: Visual Mockup of Extension Popup */}
+              <div className="lg:col-span-5 flex justify-center">
+                <div className="w-full max-w-sm rounded-2xl bg-white text-gray-900 p-5 shadow-2xl border border-gray-100 transform lg:rotate-1 hover:rotate-0 transition-transform duration-300">
+                  
+                  {/* Extension Mockup Header */}
+                  <div className="flex items-center justify-between pb-3 border-b border-gray-100 mb-3">
+                    <div className="flex items-center gap-2">
+                      <div className="w-7 h-7 rounded-lg bg-brand-500 text-white flex items-center justify-center text-xs font-black shadow-sm">
+                        PDF
+                      </div>
+                      <span className="text-sm font-black text-gray-900">
+                        PDF<span className="text-brand-600">Arena</span>Arc
+                      </span>
+                    </div>
+                    <span className="text-[10px] bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded-full font-bold border border-emerald-200">
+                      ● Offline
+                    </span>
+                  </div>
+
+                  {/* Mockup Search */}
+                  <div className="bg-gray-50 border border-gray-200 rounded-lg p-2 text-xs text-gray-400 flex items-center gap-2 mb-3">
+                    <Search className="w-3.5 h-3.5 text-gray-400" />
+                    <span>Search tool (compress, sign, merge)...</span>
+                  </div>
+
+                  {/* Mockup Tools Grid */}
+                  <div className="grid grid-cols-2 gap-2 mb-3">
+                    <div className="p-2 rounded-lg border border-gray-100 bg-gray-50/50 flex items-center gap-2">
+                      <span className="text-base">⚡</span>
+                      <div>
+                        <div className="text-[11px] font-bold text-gray-900">Compress PDF</div>
+                        <div className="text-[9px] text-gray-500">Under 200KB</div>
+                      </div>
+                    </div>
+                    <div className="p-2 rounded-lg border border-gray-100 bg-gray-50/50 flex items-center gap-2">
+                      <span className="text-base">📑</span>
+                      <div>
+                        <div className="text-[11px] font-bold text-gray-900">Merge PDF</div>
+                        <div className="text-[9px] text-gray-500">Combine files</div>
+                      </div>
+                    </div>
+                    <div className="p-2 rounded-lg border border-gray-100 bg-gray-50/50 flex items-center gap-2">
+                      <span className="text-base">✍️</span>
+                      <div>
+                        <div className="text-[11px] font-bold text-gray-900">Sign PDF</div>
+                        <div className="text-[9px] text-gray-500">Draw & e-sign</div>
+                      </div>
+                    </div>
+                    <div className="p-2 rounded-lg border border-gray-100 bg-gray-50/50 flex items-center gap-2">
+                      <span className="text-base">🛡️</span>
+                      <div>
+                        <div className="text-[11px] font-bold text-gray-900">Redact PDF</div>
+                        <div className="text-[9px] text-gray-500">Black out text</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Mockup Dropzone */}
+                  <div className="border border-dashed border-gray-200 rounded-xl p-3 text-center bg-brand-50/30">
+                    <div className="text-[11px] font-bold text-brand-700">Drop PDF here to open tool</div>
+                    <div className="text-[9px] text-gray-400">Zero cloud uploads guaranteed</div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
         </div>
       </section>
 

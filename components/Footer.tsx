@@ -238,6 +238,12 @@ export default function Footer() {
                   AI Context (llms.txt)
                 </a>
               </li>
+              <li>
+                <Link href="/#extension-section" className="text-brand-400 hover:text-brand-300 transition-colors text-xs font-bold inline-flex items-center gap-1">
+                  <span>Chrome Extension</span>
+                  <span className="text-[9px] bg-brand-500/20 text-brand-400 px-1 py-0.2 rounded">FREE</span>
+                </Link>
+              </li>
             </ul>
           </div>
 
