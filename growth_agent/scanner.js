@@ -1,8 +1,7 @@
 /**
- * Scanner module using persistent stealth browser
+ * Scanner module: Scans Reddit publicly without locking user_data profile
  */
 const { chromium } = require('playwright');
-const config = require('./config');
 const database = require('./database');
 
 async function scanSubreddit(target) {
@@ -12,10 +11,14 @@ async function scanSubreddit(target) {
 
   console.log(`[SCANNER] Searching r/${subreddit} for: "${randomQuery}"...`);
 
-  const context = await chromium.launchPersistentContext(config.USER_DATA_DIR, {
+  // Ephemeral stealth browser for scanning - zero lock conflicts with user_data
+  const browser = await chromium.launch({
     headless: true,
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-    args: ['--disable-blink-features=AutomationControlled']
+    args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
+  });
+
+  const context = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
   });
 
   const page = await context.newPage();
@@ -25,7 +28,6 @@ async function scanSubreddit(target) {
     await page.goto(searchUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
     await page.waitForTimeout(4000);
 
-    // Extract search results
     const found = await page.evaluate(() => {
       const posts = [];
       const links = document.querySelectorAll('a[href*="/comments/"]');
@@ -33,7 +35,6 @@ async function scanSubreddit(target) {
         const title = (a.innerText || a.getAttribute('aria-label') || '').trim();
         const href = a.href;
         if (title.length > 12 && !posts.some(p => p.url === href)) {
-          // Extract post ID from URL
           const match = href.match(/\/comments\/([a-z0-9]+)\//i);
           const id = match ? match[1] : null;
           if (id) {
@@ -54,9 +55,9 @@ async function scanSubreddit(target) {
       }
     }
   } catch (err) {
-    console.warn(`[SCANNER] Could not scan r/${subreddit}:`, err.message);
+    console.warn(`[SCANNER] Error scanning r/${subreddit}:`, err.message);
   } finally {
-    await context.close();
+    await browser.close();
   }
 
   return candidates;

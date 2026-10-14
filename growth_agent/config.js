@@ -4,6 +4,7 @@ module.exports = {
   // Target website details
   SITE_NAME: 'PDFArenaArc',
   SITE_URL: 'https://pdfarenaarc.com',
+  CHROME_EXECUTABLE: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
   USER_DATA_DIR: path.join(__dirname, 'user_data'),
   MEMORY_FILE: path.join(__dirname, 'agent_memory.json'),
 

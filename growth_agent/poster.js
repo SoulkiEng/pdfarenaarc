@@ -21,6 +21,7 @@ async function postComment(candidate, replyText) {
 
   const context = await chromium.launchPersistentContext(config.USER_DATA_DIR, {
     headless: false, // Run visible or minimized so user can see it in action if desired
+    executablePath: config.CHROME_EXECUTABLE,
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     args: ['--disable-blink-features=AutomationControlled']
   });
