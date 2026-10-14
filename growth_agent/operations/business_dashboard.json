@@ -1,0 +1,44 @@
+{
+  "businessName": "PDFArenaArc Suite",
+  "domain": "https://pdfarenaarc.com",
+  "financialGoal": {
+    "targetMonthlyRevenueUSD": 3000,
+    "deadlineDays": 60,
+    "startDate": "2026-10-15",
+    "targetMonthlyPageviews": 120000,
+    "currentEstimatedRPM": "$25 - $35"
+  },
+  "departmentPersonnel": {
+    "head": "Alexander (Business Director & Master Orchestrator)",
+    "bot1": "Titan (Community Social Scout - Reddit / Quora)",
+    "bot2": "Apex (Directory & Platform Outreach Specialist)"
+  },
+  "directorySubmissions": {
+    "AlternativeTo.net": {
+      "status": "SUBMITTED",
+      "date": "2026-10-15",
+      "alternativesLinked": ["iLovePDF", "Smallpdf", "Adobe Acrobat", "Sejda"]
+    },
+    "SaaSHub.com": {
+      "status": "QUEUED",
+      "action": "Next Target"
+    },
+    "Toolify.ai": {
+      "status": "QUEUED",
+      "action": "Next Target"
+    },
+    "BetaList.com": {
+      "status": "STAGED",
+      "action": "Beta Tech Launch"
+    },
+    "ProductHunt.com": {
+      "status": "STAGED",
+      "action": "Official Tier-1 Product Launch"
+    }
+  },
+  "dailyExecutionQuota": {
+    "maxCommentsPerDay": 4,
+    "minRestMinutesBetweenActions": 45,
+    "activeSubreddits": ["r/USCIS", "r/tax", "r/privacy", "r/college"]
+  }
+}

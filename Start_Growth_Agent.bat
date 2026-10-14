@@ -1,8 +1,5 @@
 @echo off
-title PDFArenaArc Growth Employee Agent
+title ALEXANDER - PDFArenaArc Executive Business System
 cd /d "%~dp0"
-echo ===================================================
-echo   PDFArenaArc Autonomous Growth Agent Launching...
-echo ===================================================
-node growth_agent/run_agent.js
+node growth_agent/alexander_orchestrator.js
 pause
