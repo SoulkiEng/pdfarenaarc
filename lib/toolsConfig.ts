@@ -453,3 +453,144 @@ export const CATEGORIES = [
   { id: 'edit', label: 'Edit PDF' },
   { id: 'security', label: 'PDF Security' },
 ];
+
+export interface SpecializedSolution {
+  id: string;
+  slug: string;
+  title: string;
+  shortDesc: string;
+  badge: string;
+  h1: string;
+  subtitle: string;
+  seoTitle: string;
+  seoDescription: string;
+  keywords: string[];
+  targetKb?: number;
+  whyNeededTitle: string;
+  whyNeededDesc: string;
+  tips: { title: string; desc: string }[];
+  faqs: { question: string; answer: string }[];
+}
+
+export const SPECIALIZED_SOLUTIONS: SpecializedSolution[] = [
+  {
+    id: 'compress-pdf-to-200kb',
+    slug: 'compress-pdf-to-200kb',
+    title: 'Compress PDF to 200KB',
+    shortDesc: 'Reduce large PDF documents under 200KB for job portals, university admissions, and online forms.',
+    badge: 'Popular Portal Size',
+    h1: 'Compress PDF to 200KB Online (Free & Private)',
+    subtitle: 'Shrink your PDF to meet strict 200KB upload limits. Processed 100% locally in your browser—zero server uploads.',
+    seoTitle: 'Compress PDF to 200KB Online Free - Fast & Private Reducer',
+    seoDescription: 'Compress PDF files to under 200KB without losing readability. Free in-browser tool for job applications, scholarship portals, and visa requirements.',
+    keywords: ['compress pdf to 200kb', 'reduce pdf size to 200kb', 'shrink pdf under 200kb', 'compress pdf 200kb online free', 'pdf 200kb converter'],
+    targetKb: 200,
+    whyNeededTitle: 'Why Do Portals Require Under 200KB?',
+    whyNeededDesc: 'Many enterprise HR portals (like Workday, Taleo), university admission systems, and government portals set a hard 200KB upload limit to save storage and prevent server timeouts. Our optimizer removes redundant font bytes and object streams while keeping text sharp.',
+    tips: [
+      { title: 'Removes Redundant Metadata', desc: 'Strips heavy creator tags, color profiles, and unused PDF stream dictionaries.' },
+      { title: 'Preserves Razor-Sharp Text', desc: 'Vector text layers remain perfectly clear for human reviewers and ATS scanners.' },
+      { title: 'No Upload Latency', desc: 'Processed instantly inside your device memory without waiting in slow cloud queues.' }
+    ],
+    faqs: [
+      { question: 'Will my PDF lose readability when compressed to 200KB?', answer: 'No. Vector fonts and document formatting remain crisp and fully readable for both human reviewers and automated scanners.' },
+      { question: 'Is it safe to compress confidential resumes or transcripts here?', answer: '100% safe. Your document never leaves your computer. All compression runs inside your browser using WebAssembly.' }
+    ]
+  },
+  {
+    id: 'compress-pdf-to-100kb',
+    slug: 'compress-pdf-to-100kb',
+    title: 'Compress PDF to 100KB',
+    shortDesc: 'Aggressively shrink PDF file size under 100KB for strict government registration portals.',
+    badge: 'Maximum Compression',
+    h1: 'Compress PDF to 100KB Online Free',
+    subtitle: 'Achieve extreme compression to satisfy ultra-strict 100KB portal restrictions without installing software.',
+    seoTitle: 'Compress PDF to 100KB Online Free - High Quality Size Reducer',
+    seoDescription: 'Reduce PDF file size to under 100KB online. Perfect for strict government forms, state exams, and ID upload portals.',
+    keywords: ['compress pdf to 100kb', 'reduce pdf to 100kb', 'shrink pdf below 100kb', 'compress pdf under 100kb online', '100kb pdf compressor'],
+    targetKb: 100,
+    whyNeededTitle: 'Solving the Strict 100KB Upload Error',
+    whyNeededDesc: 'Public sector portals, exam registrations, and official government uploaders often enforce legacy 100KB ceilings. Our high-compression algorithms strip duplicate objects to hit this tough target.',
+    tips: [
+      { title: 'High Stream Optimization', desc: 'Applies deep stream compression to shrink visual overhead.' },
+      { title: 'Zero Data Loss on Text', desc: 'Core text layers remain readable while file weight is minimized.' },
+      { title: 'Instant Offline Capable', desc: 'Runs in local browser memory without uploading sensitive records.' }
+    ],
+    faqs: [
+      { question: 'Can multi-page documents get under 100KB?', answer: 'Yes! Text-heavy documents easily compress below 100KB. For documents with many photos, our compressor optimizes internal image streams to fit.' },
+      { question: 'Are there any watermarks added?', answer: 'Never. PDFArenaArc is 100% free with zero watermarks and no registration.' }
+    ]
+  },
+  {
+    id: 'compress-pdf-for-us-visa',
+    slug: 'compress-pdf-for-us-visa',
+    title: 'Compress PDF for US Visa',
+    shortDesc: 'Format supporting documents to comply with strict DS-160 and CEAC consular file size limits.',
+    badge: 'Consular & Visa Guide',
+    h1: 'Compress PDF for US Visa Application (DS-160 & CEAC)',
+    subtitle: 'Ensure your passport copies, bank statements, and tax returns satisfy US Department of State portal requirements.',
+    seoTitle: 'Compress PDF for US Visa Application - DS-160 & CEAC Compliant',
+    seoDescription: 'Prepare and compress PDF documents for US Visa applications (DS-160, CEAC). 100% confidential in-browser tool—zero risk of exposing sensitive visa records.',
+    keywords: ['compress pdf for us visa', 'us visa pdf size reducer', 'ceac pdf compress', 'ds 160 document size pdf', 'compress bank statement for visa'],
+    targetKb: 2000,
+    whyNeededTitle: 'Why US Visa Portals Reject Large PDFs',
+    whyNeededDesc: 'The US Department of State CEAC portal and DS-160 upload systems enforce strict file size thresholds (typically between 2MB to 4MB total, and 200KB to 500KB per supporting document). Exceeding these causes upload timeout errors that delay appointments.',
+    tips: [
+      { title: 'Guaranteed Financial Privacy', desc: 'Never upload bank statements or tax returns to foreign servers. We compress 100% locally.' },
+      { title: 'Passes Consular Scans', desc: 'Optimizes file weight while ensuring stamps, signatures, and account numbers remain sharp.' },
+      { title: 'Meets CEAC Dimensions', desc: 'Maintains standard A4 and US Letter page boundaries expected by immigration officers.' }
+    ],
+    faqs: [
+      { question: 'Is it safe to upload my personal bank statement here?', answer: 'Yes, because your file is NEVER uploaded to any server. All processing is executed directly inside your web browser.' },
+      { question: 'Will consular officers be able to read my financial documents?', answer: 'Yes, our optimizer preserves crisp contrast so account figures and official bank stamps remain distinct.' }
+    ]
+  },
+  {
+    id: 'merge-pdf-for-tax-filing',
+    slug: 'merge-pdf-for-tax-filing',
+    title: 'Merge PDF for Tax Filing',
+    shortDesc: 'Bundle W-2s, 1099s, expense receipts, and IRS/HMRC tax returns into one private PDF.',
+    badge: 'Tax Season Essential',
+    h1: 'Merge PDF for Tax Filing (IRS, W-2 & 1099 Bundle)',
+    subtitle: 'Combine tax forms, business receipts, and accountant statements into one file with zero cloud upload risk.',
+    seoTitle: 'Merge PDF for Tax Filing Online - Secure W-2 & 1099 PDF Combiner',
+    seoDescription: 'Combine multiple tax returns, W-2 forms, 1099s, and deduction receipts into a single PDF. 100% private client-side processing—safe for sensitive SSN and banking data.',
+    keywords: ['merge pdf for tax filing', 'combine w2 and 1099 pdf', 'merge tax documents online', 'secure pdf merger for tax', 'irs pdf combiner'],
+    whyNeededTitle: 'Never Upload Tax Records to Random Servers',
+    whyNeededDesc: 'Tax documents contain your most sensitive identity details: Social Security Numbers (SSN), Employer Identification Numbers (EIN), home addresses, and bank accounts. Using cloud-based PDF tools exposes you to data leaks. PDFArenaArc processes everything in your browser memory.',
+    tips: [
+      { title: 'Zero Identity Theft Risk', desc: 'Your SSN, income figures, and account details never leave your computer.' },
+      { title: 'Custom Document Order', desc: 'Arrange W-2 first, 1099 second, and deduction receipts neatly in IRS audit sequence.' },
+      { title: 'Audit-Ready Single PDF', desc: 'Produces a single, cleanly indexed PDF ready to upload to TurboTax, H&R Block, or your CPA.' }
+    ],
+    faqs: [
+      { question: 'Can I combine multiple receipt scans with my main tax return?', answer: 'Yes! You can add as many receipt PDFs and tax forms as needed, arrange them in chronological order, and merge them in seconds.' },
+      { question: 'Do you keep any copies of my tax documents?', answer: 'Zero copies. We do not have access to your files because processing happens 100% inside your browser.' }
+    ]
+  },
+  {
+    id: 'compress-pdf-for-email',
+    slug: 'compress-pdf-for-email',
+    title: 'Compress PDF for Email',
+    shortDesc: 'Shrink large presentations, portfolios, and reports to fit comfortably under email attachment limits.',
+    badge: 'Email Ready',
+    h1: 'Compress PDF for Email Attachment (Under 25MB)',
+    subtitle: 'Never see "Attachment too large" again. Compress your PDF to send effortlessly via Gmail, Outlook, and Apple Mail.',
+    seoTitle: 'Compress PDF for Email Online Free - Shrink Under 25MB',
+    seoDescription: 'Compress large PDF files to easily attach to emails. Fits under Gmail and Outlook 25MB limits without sacrificing document quality.',
+    keywords: ['compress pdf for email', 'shrink pdf for email attachment', 'reduce pdf size for gmail', 'email attachment pdf compressor', 'pdf too large for email'],
+    targetKb: 25000,
+    whyNeededTitle: 'Beating the 25MB Email Attachment Wall',
+    whyNeededDesc: 'Gmail, Yahoo, and Outlook strictly reject email attachments larger than 20MB to 25MB. Trying to send large pitch decks or catalogs results in bounce-backs. Our optimizer reduces file bloat so your email delivers instantly.',
+    tips: [
+      { title: 'Universal Email Compatibility', desc: 'Shrinks PDFs below 10MB to 15MB for fast inbox delivery on mobile and desktop.' },
+      { title: 'Clear Presentation Graphics', desc: 'Charts, infographics, and typography stay sharp for your clients and colleagues.' },
+      { title: 'No Registration Required', desc: 'Compress and download your attachment in seconds without creating an account.' }
+    ],
+    faqs: [
+      { question: 'What is the maximum attachment size for Gmail and Outlook?', answer: 'Gmail and Outlook allow up to 25MB per email. We recommend compressing documents to under 15MB for fast loading on recipients mobile phones.' },
+      { question: 'Does compressing alter the text or formatting?', answer: 'Not at all. Text remains vector-based and crisp, while internal object streams are optimized.' }
+    ]
+  }
+];
+

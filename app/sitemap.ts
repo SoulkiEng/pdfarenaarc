@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { TOOLS } from '@/lib/toolsConfig';
+import { TOOLS, SPECIALIZED_SOLUTIONS } from '@/lib/toolsConfig';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://pdfarenaarc.com';
@@ -9,6 +9,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.9,
+  }));
+
+  const solutionUrls: MetadataRoute.Sitemap = SPECIALIZED_SOLUTIONS.map((sol) => ({
+    url: `${baseUrl}/${sol.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.85,
   }));
 
   const staticPages: MetadataRoute.Sitemap = [
@@ -44,5 +51,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...staticPages, ...toolUrls];
+  return [...staticPages, ...toolUrls, ...solutionUrls];
 }
