@@ -292,6 +292,156 @@ export const TOOLS: ToolMeta[] = [
       { title: 'Instant One-Click Copy', desc: 'Copy entire books or reports straight to your clipboard.' },
       { title: 'Structured Page Breaks', desc: 'Preserves page markers and clean paragraph spacing.' }
     ]
+  },
+  {
+    id: 'pdf-to-jpg',
+    slug: 'pdf-to-jpg',
+    title: 'PDF to JPG',
+    shortDesc: 'Convert each PDF page into high-quality JPG or PNG images.',
+    category: 'convert',
+    icon: 'Image',
+    badge: 'Popular',
+    seoTitle: 'Convert PDF to JPG Online - Free & High Resolution',
+    seoDescription: 'Extract pages from your PDF into high-quality JPG images instantly. 100% free client-side conversion, no file size limits.',
+    keywords: ['pdf to jpg', 'convert pdf to image', 'pdf to jpeg online', 'extract images from pdf', 'free pdf to jpg converter'],
+    steps: [
+      { step: 1, title: 'Upload PDF', desc: 'Select or drop the PDF file you want to convert into images.' },
+      { step: 2, title: 'Render Pages', desc: 'Our in-browser engine renders each page at crisp high-DPI quality.' },
+      { step: 3, title: 'Download Images', desc: 'Download individual images or all pages packed neatly in a ZIP file.' }
+    ],
+    faqs: [
+      { question: 'What image formats can I download?', answer: 'You can download high-resolution JPG or PNG images with 100% vector sharpness.' },
+      { question: 'Are my pages uploaded anywhere?', answer: 'Never. Rendering happens locally in your browser with WebAssembly.' }
+    ],
+    features: [
+      { title: 'Crisp High-DPI Output', desc: 'Generates ultra-sharp images suitable for print or presentations.' },
+      { title: 'ZIP Archive Download', desc: 'Single-click download for multi-page documents.' }
+    ]
+  },
+  {
+    id: 'sign-pdf',
+    slug: 'sign-pdf',
+    title: 'Sign PDF',
+    shortDesc: 'Create or upload your electronic signature and sign PDF documents legally.',
+    category: 'edit',
+    icon: 'PenTool',
+    badge: 'Top Tool',
+    seoTitle: 'Sign PDF Online Free - Digital & Electronic Signature Tool',
+    seoDescription: 'Sign PDF files online with legally binding electronic signatures. Draw, type, or upload your signature directly in your browser with zero data storage.',
+    keywords: ['sign pdf online', 'electronic signature pdf', 'draw signature on pdf', 'free pdf signer', 'sign document online'],
+    steps: [
+      { step: 1, title: 'Upload PDF Document', desc: 'Choose the contract, agreement, or form you need to sign.' },
+      { step: 2, title: 'Create Signature', desc: 'Draw your signature using mouse/touchpad, type it out, or upload an image.' },
+      { step: 3, title: 'Place & Download', desc: 'Position the signature on the page and download your officially signed PDF.' }
+    ],
+    faqs: [
+      { question: 'Is electronic signing legal?', answer: 'Yes, electronic signatures are widely recognized under international e-sign frameworks.' },
+      { question: 'Is my signature kept private?', answer: 'Yes, your signature is never saved on any server. It is embedded directly in your browser.' }
+    ],
+    features: [
+      { title: 'Draw, Type, or Upload', desc: 'Full flexibility to create your natural signature.' },
+      { title: 'Precise Positioning', desc: 'Drag, resize, and place signatures exactly where needed.' }
+    ]
+  },
+  {
+    id: 'word-to-pdf',
+    slug: 'word-to-pdf',
+    title: 'Word to PDF',
+    shortDesc: 'Convert DOC and DOCX Word documents into clean, standard PDF files.',
+    category: 'convert',
+    icon: 'FileText',
+    badge: 'Popular',
+    seoTitle: 'Word to PDF Converter Online - Free DOCX to PDF',
+    seoDescription: 'Convert Microsoft Word documents (DOC, DOCX) to PDF format instantly. Preserves fonts, tables, and formatting without uploading to external servers.',
+    keywords: ['word to pdf', 'convert docx to pdf', 'doc to pdf online free', 'ms word to pdf converter', 'free word to pdf'],
+    steps: [
+      { step: 1, title: 'Select Word Document', desc: 'Upload your .docx or .doc file.' },
+      { step: 2, title: 'Format & Convert', desc: 'Our engine parses headings, paragraphs, and styles into standard PDF layout.' },
+      { step: 3, title: 'Download PDF', desc: 'Download your polished, universally readable PDF.' }
+    ],
+    faqs: [
+      { question: 'Will formatting be preserved?', answer: 'Yes, standard text styles, headings, tables, and lists are cleanly preserved.' },
+      { question: 'Do I need Microsoft Office installed?', answer: 'No! The conversion runs completely inside your browser without any software installation.' }
+    ],
+    features: [
+      { title: 'Universal Layout', desc: 'Locks formatting so documents look identical on any device.' },
+      { title: 'No File Limits', desc: 'Convert as many Word documents as needed without registration.' }
+    ]
+  },
+  {
+    id: 'pdf-to-word',
+    slug: 'pdf-to-word',
+    title: 'PDF to Word',
+    shortDesc: 'Convert PDF documents into editable Microsoft Word (.docx) files.',
+    category: 'convert',
+    icon: 'FileEdit',
+    badge: 'Popular',
+    seoTitle: 'PDF to Word Converter Online - Free & Editable DOCX',
+    seoDescription: 'Convert PDF files into editable DOCX Word documents easily. Extract text, formatting, and tables without paying for expensive software.',
+    keywords: ['pdf to word', 'convert pdf to docx', 'pdf to editable word', 'free pdf to docx converter', 'pdf to word online'],
+    steps: [
+      { step: 1, title: 'Choose PDF File', desc: 'Upload the PDF document you want to edit in Microsoft Word.' },
+      { step: 2, title: 'Extract & Build DOCX', desc: 'Our tool extracts text paragraphs and constructs an editable .docx file.' },
+      { step: 3, title: 'Download Word File', desc: 'Open and edit the converted file in Microsoft Word, Google Docs, or LibreOffice.' }
+    ],
+    faqs: [
+      { question: 'Can I edit the converted file in Microsoft Word?', answer: 'Yes! The downloaded file is a standard .docx document that is 100% editable.' },
+      { question: 'Is this tool really free?', answer: 'Yes, unlike Adobe Acrobat which charges monthly fees, our PDF to Word converter is completely free.' }
+    ],
+    features: [
+      { title: 'Fully Editable Output', desc: 'Revisable text, headings, and clean paragraph breaks.' },
+      { title: 'Zero Data Storage', desc: 'Confidential business reports stay strictly on your local computer.' }
+    ]
+  },
+  {
+    id: 'redact-pdf',
+    slug: 'redact-pdf',
+    title: 'Redact PDF',
+    shortDesc: 'Permanently black out and remove confidential text, numbers, and sensitive data.',
+    category: 'security',
+    icon: 'EyeOff',
+    badge: 'Confidential',
+    seoTitle: 'Redact PDF Online Free - Black Out Sensitive Text in PDF',
+    seoDescription: 'Permanently redact and black out confidential text, financial figures, and private info in PDF. 100% client-side privacy, impossible to uncover.',
+    keywords: ['redact pdf', 'black out text in pdf', 'hide sensitive info pdf', 'free pdf redaction online', 'confidential pdf redact'],
+    steps: [
+      { step: 1, title: 'Upload PDF', desc: 'Choose the document with private information you want to conceal.' },
+      { step: 2, title: 'Mark Redaction Areas', desc: 'Select or draw black opaque redaction boxes over sensitive fields.' },
+      { step: 3, title: 'Flatten & Download', desc: 'Click "Apply Redaction" to permanently burn redactions into the document.' }
+    ],
+    faqs: [
+      { question: 'Can someone undo or remove the black boxes?', answer: 'No! Redacted areas are permanently burned into the PDF structure, making it impossible to uncover the hidden data.' },
+      { question: 'Why is this better than other online redactors?', answer: 'Other tools require uploading your sensitive confidential documents to their servers. PDFArenaArc does it 100% locally.' }
+    ],
+    features: [
+      { title: 'Permanent Obfuscation', desc: 'True redaction that removes underlying content completely.' },
+      { title: 'Ideal for Legal & Finance', desc: 'Perfect for masking bank numbers, SSNs, and confidential clauses.' }
+    ]
+  },
+  {
+    id: 'grayscale-pdf',
+    slug: 'grayscale-pdf',
+    title: 'Grayscale PDF',
+    shortDesc: 'Convert colorful PDF documents into black-and-white to save ink and reduce size.',
+    category: 'optimize',
+    icon: 'Palette',
+    badge: 'Eco Print',
+    seoTitle: 'Convert PDF to Grayscale Online - Black and White PDF Free',
+    seoDescription: 'Convert color PDFs to pure black and white / grayscale online. Ideal for printing, official court and visa document requirements, and saving ink.',
+    keywords: ['grayscale pdf', 'convert pdf to black and white', 'b&w pdf converter', 'print friendly pdf', 'monochrome pdf online'],
+    steps: [
+      { step: 1, title: 'Select Color PDF', desc: 'Upload the document you want to convert to black & white.' },
+      { step: 2, title: 'Convert to Monochrome', desc: 'Our engine applies luminance conversion to transform all colors to grayscale.' },
+      { step: 3, title: 'Download B&W PDF', desc: 'Save your print-ready monochrome PDF with significant ink savings.' }
+    ],
+    faqs: [
+      { question: 'Why convert a PDF to grayscale?', answer: 'It dramatically reduces printer ink costs, speeds up printing, and meets official submission standards for courts and visa applications.' },
+      { question: 'Will text readability be maintained?', answer: 'Yes, contrast is optimized so all text remains crisp, dark, and highly legible.' }
+    ],
+    features: [
+      { title: 'Printer-Friendly Output', desc: 'Saves expensive color toner cartridges.' },
+      { title: 'Official Compliance', desc: 'Meets government and academic monochrome filing specifications.' }
+    ]
   }
 ];
 

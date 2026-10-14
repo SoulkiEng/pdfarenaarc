@@ -15,7 +15,12 @@ import {
   Grid, 
   FileText,
   ArrowRight,
-  Sparkles
+  Sparkles,
+  PenTool,
+  Image,
+  FileEdit,
+  EyeOff,
+  Palette
 } from 'lucide-react';
 import { ToolMeta } from '@/lib/toolsConfig';
 
@@ -31,6 +36,11 @@ const iconMap: Record<string, React.ElementType> = {
   Unlock,
   Grid,
   FileText,
+  PenTool,
+  Image,
+  FileEdit,
+  EyeOff,
+  Palette,
 };
 
 interface ToolCardProps {

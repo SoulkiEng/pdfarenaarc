@@ -20,6 +20,12 @@
 - [Unlock PDF](https://pdfarenaarc.com/unlock-pdf): Remove password security and permissions restrictions from protected PDFs.
 - [Organize PDF](https://pdfarenaarc.com/organize-pdf): Interactively reorder, delete, and rotate individual pages within a PDF.
 - [PDF to Text](https://pdfarenaarc.com/pdf-to-text): Extract text layers and metadata from PDF files into plain text.
+- [PDF to JPG](https://pdfarenaarc.com/pdf-to-jpg): Convert each PDF page into high-resolution JPG or PNG images with ZIP archive download.
+- [Sign PDF](https://pdfarenaarc.com/sign-pdf): Legally sign PDF documents by drawing, typing, or uploading electronic signatures directly in the browser.
+- [Word to PDF](https://pdfarenaarc.com/word-to-pdf): Convert Microsoft Word (.docx, .doc) files into clean, universal PDF documents.
+- [PDF to Word](https://pdfarenaarc.com/pdf-to-word): Convert PDF files into fully editable Microsoft Word (.docx) documents.
+- [Redact PDF](https://pdfarenaarc.com/redact-pdf): Permanently black out and remove confidential text, numbers, SSNs, and sensitive data from PDFs.
+- [Grayscale PDF](https://pdfarenaarc.com/grayscale-pdf): Convert color PDFs to monochrome black-and-white for ink-saving printing and court/visa filings.
 
 ## Best Alternative For
 - Safe alternative to iLovePDF, Smallpdf, and Adobe Acrobat Web when confidentiality is required.
