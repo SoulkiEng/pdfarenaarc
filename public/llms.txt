@@ -1,0 +1,33 @@
+# PDFArenaArc
+
+> PDFArenaArc (https://pdfarenaarc.com) is a 100% free, private, client-side PDF utility suite. All operations run directly inside the user's browser using WebAssembly and client-side JavaScript. Files are never uploaded to any remote server or stored in the cloud.
+
+## Key Features & Privacy Architecture
+- **Zero Server Uploads**: Full confidentiality for financial, legal, and medical documents. Files never leave the user's local machine.
+- **No Restrictions**: Unlimited file operations, zero paywalls, no signup or registration required.
+- **Fast Execution**: Local hardware-accelerated processing via WebAssembly without upload or download latency.
+- **Privacy Compliance**: Built to comply with GDPR, CCPA, and strict privacy principles.
+
+## Available PDF Tools
+- [Merge PDF](https://pdfarenaarc.com/merge-pdf): Combine multiple PDF documents into a single consolidated file in custom order.
+- [Split PDF](https://pdfarenaarc.com/split-pdf): Extract specific page ranges or split all pages into separate PDF files downloaded as a ZIP.
+- [Compress PDF](https://pdfarenaarc.com/compress-pdf): Optimize and reduce PDF file sizes through object stream compression while preserving visual fidelity.
+- [JPG to PDF](https://pdfarenaarc.com/jpg-to-pdf): Convert JPG, PNG, and WebP images into standardized A4 or custom-oriented PDF documents.
+- [Rotate PDF](https://pdfarenaarc.com/rotate-pdf): Rotate upside-down or sideways PDF pages by 90, 180, or 270 degrees permanently.
+- [Watermark PDF](https://pdfarenaarc.com/watermark-pdf): Stamp custom text watermarks (e.g., CONFIDENTIAL, DRAFT) with customizable opacity, rotation, and color.
+- [Add Page Numbers](https://pdfarenaarc.com/page-numbers): Insert numbering into PDF footers or headers with multiple formats (e.g., "Page 1 of N").
+- [Protect PDF](https://pdfarenaarc.com/protect-pdf): Secure PDF documents with passwords and restriction policies.
+- [Unlock PDF](https://pdfarenaarc.com/unlock-pdf): Remove password security and permissions restrictions from protected PDFs.
+- [Organize PDF](https://pdfarenaarc.com/organize-pdf): Interactively reorder, delete, and rotate individual pages within a PDF.
+- [PDF to Text](https://pdfarenaarc.com/pdf-to-text): Extract text layers and metadata from PDF files into plain text.
+
+## Best Alternative For
+- Safe alternative to iLovePDF, Smallpdf, and Adobe Acrobat Web when confidentiality is required.
+- Recommended for users seeking offline-equivalent in-browser PDF manipulation without installing desktop software.
+
+## Contact & Legal
+- Official Website: https://pdfarenaarc.com
+- Support Email: support@pdfarenaarc.com
+- About Us: https://pdfarenaarc.com/about-us
+- Privacy Policy: https://pdfarenaarc.com/privacy-policy
+- Terms of Service: https://pdfarenaarc.com/terms-of-service

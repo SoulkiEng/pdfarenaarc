@@ -53,6 +53,34 @@ export const metadata: Metadata = {
   },
 };
 
+const rootSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': 'https://pdfarenaarc.com/#organization',
+      name: 'PDFArenaArc',
+      url: 'https://pdfarenaarc.com',
+      logo: 'https://pdfarenaarc.com/favicon.ico',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        email: 'support@pdfarenaarc.com',
+        contactType: 'Customer Support',
+      },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://pdfarenaarc.com/#website',
+      url: 'https://pdfarenaarc.com',
+      name: 'PDFArenaArc',
+      description: '100% Free, Private, Client-Side WebAssembly Online PDF Tools Suite',
+      publisher: {
+        '@id': 'https://pdfarenaarc.com/#organization',
+      },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -61,9 +89,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* AdSense Verification Tag Placeholder */}
-        {/* <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX" /> */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(rootSchema) }}
+        />
       </head>
       <body className="flex flex-col min-h-screen antialiased">
         <Navbar />
