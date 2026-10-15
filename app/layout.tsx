@@ -51,6 +51,14 @@ export const metadata: Metadata = {
     title: 'PDFArenaArc - Online PDF Tools',
     description: '100% free client-side PDF tools: merge, split, compress, and edit PDFs safely.',
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/favicon-48x48.png',
+  },
 };
 
 const rootSchema = {

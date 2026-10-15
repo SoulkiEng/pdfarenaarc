@@ -591,6 +591,102 @@ export const SPECIALIZED_SOLUTIONS: SpecializedSolution[] = [
       { question: 'What is the maximum attachment size for Gmail and Outlook?', answer: 'Gmail and Outlook allow up to 25MB per email. We recommend compressing documents to under 15MB for fast loading on recipients mobile phones.' },
       { question: 'Does compressing alter the text or formatting?', answer: 'Not at all. Text remains vector-based and crisp, while internal object streams are optimized.' }
     ]
+  },
+  {
+    id: 'compress-pdf-to-300kb',
+    slug: 'compress-pdf-to-300kb',
+    title: 'Compress PDF to 300KB',
+    shortDesc: 'Optimize documents and certificates to strictly fit under 300KB for official upload portals.',
+    badge: 'Popular Portal Limit',
+    h1: 'Compress PDF to 300KB Online (Free & Private)',
+    subtitle: 'Downscale heavy images and strip metadata to meet 300KB limits with zero cloud uploads.',
+    seoTitle: 'Compress PDF to 300KB Online Free - Fast Size Reducer',
+    seoDescription: 'Compress PDF files to under 300KB without losing text sharpness. Free client-side tool for employment portals, academic applications, and civil service exams.',
+    keywords: ['compress pdf to 300kb', 'reduce pdf size to 300kb', 'shrink pdf under 300kb', 'compress pdf 300kb online free', '300kb pdf converter'],
+    targetKb: 300,
+    whyNeededTitle: 'Why 300KB is the Standard Portal Upload Ceiling',
+    whyNeededDesc: 'Many enterprise recruiting engines, state entrance exams, and academic admission servers enforce a strict 300KB maximum per document. Our optimizer cleans redundant fonts, tags, and excessive image DPI while keeping all text vector-crisp.',
+    tips: [
+      { title: 'Removes Redundant Metadata', desc: 'Strips heavy creator tags, color profiles, and unused PDF stream dictionaries.' },
+      { title: 'Preserves ATS Scannability', desc: 'Text layers remain 100% vector-sharp for automated resume and form scanners.' },
+      { title: 'Zero Cloud Upload Latency', desc: 'Runs directly in your browser memory for immediate, private downloads.' }
+    ],
+    faqs: [
+      { question: 'Will my scanned certificate remain readable under 300KB?', answer: 'Yes! Our compression balances image DPI and color palettes so official stamps, signatures, and fine print stay distinct.' },
+      { question: 'Are there file limits or charges?', answer: 'PDFArenaArc is 100% free with unlimited compressions and zero account requirements.' }
+    ]
+  },
+  {
+    id: 'compress-pdf-for-canada-pr',
+    slug: 'compress-pdf-for-canada-pr',
+    title: 'Compress PDF for Canada PR',
+    shortDesc: 'Format immigration documents to meet IRCC online portal 4MB file size restrictions.',
+    badge: 'IRCC Canada Ready',
+    h1: 'Compress PDF for Canada PR Application (IRCC 4MB Limit)',
+    subtitle: 'Prepare and optimize work history, police certificates, and bank statements for the IRCC Express Entry portal.',
+    seoTitle: 'Compress PDF for Canada PR Application - IRCC 4MB Compliant',
+    seoDescription: 'Compress supporting PDF files for Canada PR and Express Entry applications. 100% confidential in-browser tool—zero risk of exposing sensitive Canadian immigration records.',
+    keywords: ['compress pdf for canada pr', 'ircc pdf compress', 'canada immigration document size', 'express entry pdf size reducer', 'compress bank statement for canada visa'],
+    targetKb: 4000,
+    whyNeededTitle: 'Understanding IRCC 4MB Upload Restrictions',
+    whyNeededDesc: 'Immigration, Refugees and Citizenship Canada (IRCC) strictly restricts supporting document uploads to a maximum of 4MB per placeholder. Uploading uncompressed multi-page employment records or medical scans causes portal upload failures that delay applications.',
+    tips: [
+      { title: '100% Private Client-Side Processing', desc: 'Never upload passport copies, pay stubs, or background checks to foreign cloud servers.' },
+      { title: 'Meets IRCC Clarity Standards', desc: 'Keeps official visa stamps, notary seals, and signatures razor-sharp.' },
+      { title: 'Standard Letter & A4 Sizing', desc: 'Preserves international page geometry expected by Canadian immigration case officers.' }
+    ],
+    faqs: [
+      { question: 'What is the maximum file size for Canada IRCC portal?', answer: 'IRCC imposes a strict 4MB (4,194,304 bytes) limit per document field. Our tool optimizes multi-page files to comfortably fit under this threshold.' },
+      { question: 'Is my personal data saved anywhere?', answer: 'No. PDFArenaArc operates entirely inside your web browser via WebAssembly. Zero files are uploaded or stored on any server.' }
+    ]
+  },
+  {
+    id: 'compress-pdf-for-uk-visa',
+    slug: 'compress-pdf-for-uk-visa',
+    title: 'Compress PDF for UK Visa',
+    shortDesc: 'Optimize documents for UKVI, TLScontact, and VFS Global consular upload portals.',
+    badge: 'UKVI Compliant',
+    h1: 'Compress PDF for UK Visa Application (UKVI & VFS Global)',
+    subtitle: 'Shrink bank statements, TB certificates, and sponsorship documents to meet UK Visas & Immigration portal limits.',
+    seoTitle: 'Compress PDF for UK Visa Application - UKVI & VFS Global Ready',
+    seoDescription: 'Compress PDF documents for UK Visas and Immigration (UKVI), VFS Global, and TLScontact uploads. 100% private in-browser compression for sensitive financial records.',
+    keywords: ['compress pdf for uk visa', 'ukvi document upload size', 'vfs global pdf compress', 'compress bank statement for uk visa', 'uk visa supporting document size'],
+    targetKb: 5000,
+    whyNeededTitle: 'Overcoming UKVI & VFS Upload Limits',
+    whyNeededDesc: 'UK Visas and Immigration (UKVI) online submission portals and partner centers (VFS Global and TLScontact) enforce 5MB to 6MB limits on document uploads. When scanning multi-month bank statements or property deeds, file sizes frequently exceed limits.',
+    tips: [
+      { title: 'Strict Financial Confidentiality', desc: 'Bank records with account numbers and transaction histories never leave your computer.' },
+      { title: 'Preserves Barcodes & Biometric Stamps', desc: 'Maintains high contrast so automated consular scanners read document barcodes without error.' },
+      { title: 'Fast Batch Processing', desc: 'Compress all your visa supporting files in minutes without software installations.' }
+    ],
+    faqs: [
+      { question: 'What is the document limit for VFS Global UK visa uploads?', answer: 'VFS Global recommends individual PDF uploads remain strictly under 5MB for smooth processing without browser session timeouts.' },
+      { question: 'Will UK visa officers accept compressed documents?', answer: 'Yes, as long as text and official bank stamps remain distinct. Our optimizer reduces bloat without rasterizing clean vector text.' }
+    ]
+  },
+  {
+    id: 'merge-bank-statements-for-mortgage',
+    slug: 'merge-bank-statements-for-mortgage',
+    title: 'Merge Bank Statements for Mortgage',
+    shortDesc: 'Combine multiple months of bank statements into a single, organized PDF for loan underwriters.',
+    badge: 'Mortgage & Loan Ready',
+    h1: 'Merge Bank Statements for Mortgage Application (100% Private)',
+    subtitle: 'Combine 3 to 12 months of banking records into one audit-ready packet. Zero server uploads—protect your SSN and account numbers.',
+    seoTitle: 'Merge Bank Statements for Mortgage Online - Secure PDF Combiner',
+    seoDescription: 'Combine multiple bank statements into a single PDF for mortgage lenders and loan officers. 100% client-side privacy prevents identity theft and financial exposure.',
+    keywords: ['merge bank statements for mortgage', 'combine bank statements into one pdf', 'mortgage loan bank statements pdf', 'merge pdf financial records', 'secure pdf merger for mortgage'],
+    whyNeededTitle: 'Why Mortgage Underwriters Demand a Single PDF',
+    whyNeededDesc: 'Mortgage lenders (Fannie Mae, Freddie Mac, major banks) require borrowers to submit consecutive monthly bank statements as a single, chronological PDF. Uploading sensitive financial accounts with balances and transaction histories to cloud converters creates severe identity theft risks.',
+    tips: [
+      { title: 'Zero Identity Exposure', desc: 'Your account numbers, balances, employer deposits, and SSNs never leave your device.' },
+      { title: 'Chronological Ordering', desc: 'Easily arrange consecutive statements from oldest to newest as expected by underwriters.' },
+      { title: 'High-Value Loan Approval Ready', desc: 'Produces clean, standard PDF formatting that imports directly into Encompass and lender portals.' }
+    ],
+    faqs: [
+      { question: 'How many months of statements can I merge?', answer: 'You can combine 3, 6, 12, or more months of bank statements without any artificial file count or size caps.' },
+      { question: 'Is it really safe to merge sensitive financial statements here?', answer: 'Yes! Unlike other PDF tools that upload files to cloud buckets, PDFArenaArc executes 100% inside your local browser memory using WebAssembly. No one else ever sees your documents.' }
+    ]
   }
 ];
+
 
