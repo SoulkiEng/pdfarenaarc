@@ -42,6 +42,12 @@
       "date": "2026-10-15",
       "plan": "Standard Free Submission"
     },
+    "GitHub_Awesome_Wasm": {
+      "status": "PR_OPEN",
+      "prNumber": 58,
+      "repo": "mcuking/Awesome-WebAssembly-Applications",
+      "date": "2026-10-16"
+    },
     "BetaList.com": {
       "status": "STAGED",
       "action": "Beta Tech Launch"
@@ -53,12 +59,12 @@
   },
   "chromeExtension": {
     "name": "PDFArenaArc - Free Private PDF Tools",
-    "itemId": "lhmkmfeppmecbmkjkfgjphjaggbdmhri",
-    "status": "SUBMITTED_FOR_REVIEW",
-    "submissionDate": "2026-10-15",
+    "itemId": "ihmkmfeppmeccbmkjkfgjphjaggbdmhn",
+    "status": "PUBLISHED_PUBLIC",
+    "publishDate": "2026-10-16",
     "category": "Tools",
     "permissions": [],
-    "autoPublishOnApproval": true
+    "storeUrl": "https://chromewebstore.google.com/detail/pdfarenaarc-free-private/ihmkmfeppmeccbmkjkfgjphjaggbdmhn"
   },
   "dailyExecutionQuota": {
     "maxCommentsPerDay": 4,

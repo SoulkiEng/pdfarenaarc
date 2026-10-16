@@ -271,7 +271,7 @@ export default function HomePage() {
                 {/* Action Buttons & Chrome Store Direct Link */}
                 <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4">
                   <a
-                    href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/lhmkmfeppmecbmkjkfgjphjaggbdmhri"
+                    href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/ihmkmfeppmeccbmkjkfgjphjaggbdmhn"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl text-sm font-bold text-white bg-brand-500 hover:bg-brand-600 shadow-lg shadow-brand-500/30 transition-all hover:scale-105 active:scale-95 cursor-pointer group"

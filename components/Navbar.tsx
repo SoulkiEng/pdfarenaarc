@@ -216,36 +216,28 @@ export default function Navbar() {
             </div>
           </nav>
 
-          {/* Right Call-To-Action & Trust Badge */}
-          <div className="hidden sm:flex items-center gap-2.5">
+          {/* Right Call-To-Action: Official Chrome Extension */}
+          <div className="hidden sm:flex items-center gap-3">
+            <div className="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-semibold">
+              <ShieldCheck className="w-4 h-4 text-emerald-600" />
+              <span>Zero Server Uploads</span>
+            </div>
+
             <a
-              href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/lhmkmfeppmecbmkjkfgjphjaggbdmhri"
+              href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/ihmkmfeppmeccbmkjkfgjphjaggbdmhn"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-gray-50 to-gray-100/80 hover:from-white hover:to-gray-50 border border-gray-200 text-xs font-bold text-gray-800 transition-all hover:scale-105 shadow-2xs group"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold text-white bg-brand-500 hover:bg-brand-600 shadow-md shadow-brand-500/25 transition-all hover:scale-105 active:scale-95 cursor-pointer group"
             >
-              <svg className="w-3.5 h-3.5 group-hover:rotate-45 transition-transform duration-300" viewBox="0 0 24 24">
+              <svg className="w-4 h-4 group-hover:rotate-12 transition-transform duration-300" viewBox="0 0 24 24">
                 <path fill="#EA4335" d="M12 2C8.6 2 5.6 3.7 3.8 6.4L7.9 13.5C8.3 10.5 10.8 8.2 13.8 8.2H21.5C20.1 4.5 16.4 2 12 2Z"/>
                 <path fill="#4285F4" d="M21.5 8.2H13.8C14.7 9.8 14.8 11.7 14.1 13.3L10 20.4C10.7 20.5 11.3 20.6 12 20.6C16.9 20.6 21 17.1 21.9 12.4C22.1 11 22 9.6 21.5 8.2Z"/>
                 <path fill="#FBBC05" d="M12 20.6C9.6 20.6 7.4 19.4 6 17.5L2.4 11.2C2.1 11.8 2 12.4 2 13.1C2 18.2 5.9 22.4 11 22.6L14.1 17.3C13.5 19.3 12.8 20.6 12 20.6Z"/>
                 <circle cx="12" cy="12" r="4.2" fill="#FFFFFF"/>
                 <circle cx="12" cy="12" r="3.2" fill="#1A73E8"/>
               </svg>
-              <span>Extension</span>
-              <span className="text-[9px] bg-red-100 text-brand-600 px-1.5 py-0.2 rounded-full font-black">FREE</span>
-            </a>
-
-            <div className="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-semibold">
-              <ShieldCheck className="w-4 h-4 text-emerald-600" />
-              <span>Zero Server Uploads</span>
-            </div>
-
-            <a
-              href="/#tools-section"
-              onClick={handleExploreTools}
-              className="px-4 py-2 rounded-xl text-sm font-bold text-white bg-brand-500 hover:bg-brand-600 shadow-md shadow-brand-500/25 transition-all hover:scale-105 active:scale-95 cursor-pointer"
-            >
-              Explore Tools
+              <span>Add to Chrome</span>
+              <span className="text-[10px] bg-white/20 text-white px-1.5 py-0.5 rounded-full font-bold">FREE</span>
             </a>
           </div>
 
@@ -389,11 +381,11 @@ export default function Navbar() {
 
           <div className="pt-3 border-t border-gray-100 space-y-2">
             <a
-              href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/lhmkmfeppmecbmkjkfgjphjaggbdmhri"
+              href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/ihmkmfeppmeccbmkjkfgjphjaggbdmhn"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
-              className="w-full flex items-center justify-center gap-2 py-2.5 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-xl font-bold text-xs text-gray-800 transition-colors"
+              className="w-full flex items-center justify-center gap-2 py-3 bg-brand-500 text-white rounded-xl font-bold text-sm shadow-md shadow-brand-500/20"
             >
               <svg className="w-4 h-4" viewBox="0 0 24 24">
                 <path fill="#EA4335" d="M12 2C8.6 2 5.6 3.7 3.8 6.4L7.9 13.5C8.3 10.5 10.8 8.2 13.8 8.2H21.5C20.1 4.5 16.4 2 12 2Z"/>
@@ -402,7 +394,7 @@ export default function Navbar() {
                 <circle cx="12" cy="12" r="4.2" fill="#FFFFFF"/>
                 <circle cx="12" cy="12" r="3.2" fill="#1A73E8"/>
               </svg>
-              <span>Get Free Chrome Extension</span>
+              <span>Add to Chrome - Free Extension</span>
             </a>
 
             <a
