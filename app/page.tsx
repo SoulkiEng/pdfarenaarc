@@ -112,7 +112,7 @@ export default function HomePage() {
       <section id="tools-section" className="scroll-mt-24 py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-6 mb-8 border-b border-gray-200">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-6 mb-8 border-b border-gray-200">
           <div>
             <h2 className="text-xl sm:text-2xl font-black text-gray-900">
               Popular PDF Tools
@@ -121,7 +121,38 @@ export default function HomePage() {
               Showing {filteredTools.length} {filteredTools.length === 1 ? 'tool' : 'tools'} ready to use
             </p>
           </div>
-          <div className="mt-3 sm:mt-0 flex items-center gap-2 text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200 self-start">
+
+          {/* Center Luxury Chrome Extension 4.8★ Review & Safe Privacy Badge */}
+          <a
+            href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/ihmkmfeppmeccbmkjkfgjphjaggbdmhn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3.5 px-5 py-2.5 rounded-2xl bg-gradient-to-r from-slate-900 via-gray-900 to-slate-900 text-white border border-amber-400/30 shadow-lg shadow-slate-900/10 hover:shadow-amber-500/15 hover:border-amber-400/60 transition-all duration-300 hover:scale-[1.02] group self-start lg:self-center"
+          >
+            <div className="w-9 h-9 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 group-hover:rotate-12 transition-transform">
+              <svg className="w-5 h-5" viewBox="0 0 24 24">
+                <path fill="#EA4335" d="M12 2C8.6 2 5.6 3.7 3.8 6.4L7.9 13.5C8.3 10.5 10.8 8.2 13.8 8.2H21.5C20.1 4.5 16.4 2 12 2Z"/>
+                <path fill="#4285F4" d="M21.5 8.2H13.8C14.7 9.8 14.8 11.7 14.1 13.3L10 20.4C10.7 20.5 11.3 20.6 12 20.6C16.9 20.6 21 17.1 21.9 12.4C22.1 11 22 9.6 21.5 8.2Z"/>
+                <path fill="#FBBC05" d="M12 20.6C9.6 20.6 7.4 19.4 6 17.5L2.4 11.2C2.1 11.8 2 12.4 2 13.1C2 18.2 5.9 22.4 11 22.6L14.1 17.3C13.5 19.3 12.8 20.6 12 20.6Z"/>
+                <circle cx="12" cy="12" r="4.2" fill="#FFFFFF"/>
+                <circle cx="12" cy="12" r="3.2" fill="#1A73E8"/>
+              </svg>
+            </div>
+            <div className="flex flex-col">
+              <div className="flex items-center gap-1.5">
+                <span className="text-amber-400 text-xs tracking-tight">★★★★★</span>
+                <span className="text-xs font-black text-white">4.8 / 5.0</span>
+                <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                  100% Privacy Safe
+                </span>
+              </div>
+              <span className="text-[11px] text-gray-300 font-medium group-hover:text-white transition-colors">
+                Official Chrome Extension • Zero Cloud Uploads
+              </span>
+            </div>
+          </a>
+
+          <div className="flex items-center gap-2 text-xs font-semibold text-emerald-700 bg-emerald-50 px-3.5 py-2 rounded-xl border border-emerald-200 self-start lg:self-center">
             <ShieldCheck className="w-4 h-4" />
             <span>Files never leave your computer</span>
           </div>
