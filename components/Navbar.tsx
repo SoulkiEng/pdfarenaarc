@@ -218,8 +218,10 @@ export default function Navbar() {
 
           {/* Right Call-To-Action & Trust Badge */}
           <div className="hidden sm:flex items-center gap-2.5">
-            <Link
-              href="/#extension-section"
+            <a
+              href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/lhmkmfeppmecbmkjkfgjphjaggbdmhri"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-gray-50 to-gray-100/80 hover:from-white hover:to-gray-50 border border-gray-200 text-xs font-bold text-gray-800 transition-all hover:scale-105 shadow-2xs group"
             >
               <svg className="w-3.5 h-3.5 group-hover:rotate-45 transition-transform duration-300" viewBox="0 0 24 24">
@@ -231,7 +233,7 @@ export default function Navbar() {
               </svg>
               <span>Extension</span>
               <span className="text-[9px] bg-red-100 text-brand-600 px-1.5 py-0.2 rounded-full font-black">FREE</span>
-            </Link>
+            </a>
 
             <div className="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-semibold">
               <ShieldCheck className="w-4 h-4 text-emerald-600" />
@@ -386,8 +388,10 @@ export default function Navbar() {
           </div>
 
           <div className="pt-3 border-t border-gray-100 space-y-2">
-            <Link
-              href="/#extension-section"
+            <a
+              href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/lhmkmfeppmecbmkjkfgjphjaggbdmhri"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-center gap-2 py-2.5 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-xl font-bold text-xs text-gray-800 transition-colors"
             >
@@ -399,7 +403,7 @@ export default function Navbar() {
                 <circle cx="12" cy="12" r="3.2" fill="#1A73E8"/>
               </svg>
               <span>Get Free Chrome Extension</span>
-            </Link>
+            </a>
 
             <a
               href="/#tools-section"

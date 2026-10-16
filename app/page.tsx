@@ -11,8 +11,7 @@ import {
   Cpu, 
   ArrowRight,
   CheckCircle2,
-  Lock,
-  Download
+  Lock
 } from 'lucide-react';
 import { TOOLS, CATEGORIES, ToolMeta } from '@/lib/toolsConfig';
 import ToolCard from '@/components/ToolCard';
@@ -269,26 +268,26 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                {/* Action Buttons & Install Guide */}
+                {/* Action Buttons & Chrome Store Direct Link */}
                 <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4">
                   <a
-                    href="/pdfarenaarc-chrome-extension.zip"
-                    download="pdfarenaarc-chrome-extension.zip"
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-bold text-white bg-brand-500 hover:bg-brand-600 shadow-lg shadow-brand-500/30 transition-all hover:scale-105 active:scale-95 cursor-pointer"
+                    href="https://chromewebstore.google.com/detail/pdfarenaarc-free-private/lhmkmfeppmecbmkjkfgjphjaggbdmhri"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl text-sm font-bold text-white bg-brand-500 hover:bg-brand-600 shadow-lg shadow-brand-500/30 transition-all hover:scale-105 active:scale-95 cursor-pointer group"
                   >
-                    <Download className="w-4 h-4" />
-                    <span>Download Extension (.ZIP)</span>
+                    <svg className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" viewBox="0 0 24 24">
+                      <path fill="#EA4335" d="M12 2C8.6 2 5.6 3.7 3.8 6.4L7.9 13.5C8.3 10.5 10.8 8.2 13.8 8.2H21.5C20.1 4.5 16.4 2 12 2Z"/>
+                      <path fill="#4285F4" d="M21.5 8.2H13.8C14.7 9.8 14.8 11.7 14.1 13.3L10 20.4C10.7 20.5 11.3 20.6 12 20.6C16.9 20.6 21 17.1 21.9 12.4C22.1 11 22 9.6 21.5 8.2Z"/>
+                      <path fill="#FBBC05" d="M12 20.6C9.6 20.6 7.4 19.4 6 17.5L2.4 11.2C2.1 11.8 2 12.4 2 13.1C2 18.2 5.9 22.4 11 22.6L14.1 17.3C13.5 19.3 12.8 20.6 12 20.6Z"/>
+                      <circle cx="12" cy="12" r="4.2" fill="#FFFFFF"/>
+                      <circle cx="12" cy="12" r="3.2" fill="#1A73E8"/>
+                    </svg>
+                    <span>Add to Chrome - Free</span>
                   </a>
-                  <span className="text-xs text-gray-400">
-                    ⚡ Instant 30-second setup in Chrome
-                  </span>
-                </div>
-
-                {/* Quick 3-Step Instruction Box */}
-                <div className="p-3.5 rounded-xl bg-white/5 border border-white/10 text-xs text-gray-300 max-w-lg space-y-1">
-                  <div className="font-bold text-white text-[11px] uppercase tracking-wider">How to load in Chrome:</div>
-                  <div className="text-[11px] text-gray-400 leading-relaxed">
-                    1. Download & Unzip • 2. Go to <code className="text-brand-300 bg-white/10 px-1 py-0.5 rounded">chrome://extensions</code> • 3. Enable <strong>Developer Mode</strong> & click <strong>Load Unpacked</strong>.
+                  <div className="flex items-center gap-2 text-xs text-gray-300">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span>Official Google Chrome Web Store Verified</span>
                   </div>
                 </div>
 
