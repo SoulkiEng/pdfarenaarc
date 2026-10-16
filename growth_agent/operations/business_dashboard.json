@@ -48,6 +48,18 @@
       "repo": "mcuking/Awesome-WebAssembly-Applications",
       "date": "2026-10-16"
     },
+    "Dev.to_ParasiteSEO": {
+      "status": "PUBLISHED_LIVE",
+      "date": "2026-10-16",
+      "domainAuthority": 88,
+      "url": "https://dev.to/soulkieng/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-2jm9"
+    },
+    "Medium_ParasiteSEO": {
+      "status": "PUBLISHED_LIVE",
+      "date": "2026-10-16",
+      "domainAuthority": 95,
+      "url": "https://medium.com/@cypherrsolutions/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-bb8c88ed4eea"
+    },
     "BetaList.com": {
       "status": "STAGED",
       "action": "Beta Tech Launch"
@@ -71,9 +83,11 @@
     "minRestMinutesBetweenActions": 45,
     "activeSubreddits": [
       "r/USCIS",
+      "r/ImmigrationCanada",
+      "r/ukvisa",
+      "r/FirstTimeHomeBuyer",
       "r/tax",
-      "r/privacy",
-      "r/college"
+      "r/privacy"
     ]
   }
 }

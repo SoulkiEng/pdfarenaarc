@@ -33,8 +33,11 @@ const URLS = [
   `https://${HOST}/compress-pdf-to-200kb`,
   `https://${HOST}/compress-pdf-to-100kb`,
   `https://${HOST}/compress-pdf-for-us-visa`,
-  `https://${HOST}/merge-pdf-for-tax-filing`,
-  `https://${HOST}/compress-pdf-for-email`
+  `https://${HOST}/compress-pdf-for-email`,
+  `https://${HOST}/compress-pdf-to-300kb`,
+  `https://${HOST}/compress-pdf-for-canada-pr`,
+  `https://${HOST}/compress-pdf-for-uk-visa`,
+  `https://${HOST}/merge-bank-statements-for-mortgage`
 ];
 
 const payload = JSON.stringify({

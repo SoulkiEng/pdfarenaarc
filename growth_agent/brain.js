@@ -33,11 +33,29 @@ function generateReply(subreddit, postTitle, postText, toolSlug) {
     return variations[Math.floor(Math.random() * variations.length)];
   }
 
-  // College / Students
-  if (subreddit.toLowerCase() === 'college') {
+  // Canada IRCC / Express Entry
+  if (subreddit.toLowerCase() === 'immigrationcanada') {
     const variations = [
-      `Canvas and Blackboard file submission walls are the worst when you have an essay or portfolio due in 5 minutes.\n\nIf your file is over the portal limit or you need to merge pages quickly, ${targetUrl} is free, has no file count limits or signups, and runs instantly in your browser.`,
-      `Don't pay for Adobe Acrobat just for class submissions. You can compress, merge, and convert documents directly on ${targetUrl} — it's completely free and runs instantly in-browser.`
+      `IRCC's 4MB limit per slot is tough when you have to combine employment reference letters, paystubs, and tax records into a single PDF.\n\nPro tip: scan text documents at 150 DPI and avoid uploading your SIN or passport scans to random cloud PDF compressors that store your data on remote servers. You can use ${targetUrl} — it runs 100% locally in your browser via WebAssembly (or their verified Chrome extension with 0 permissions) so your documents never leave your laptop.`,
+      `Had the same headache with my Express Entry e-APR packet! Because IRCC only gives one upload slot per category, merging 20+ pages easily crosses 4MB.\n\nIf you want to shrink it under 4MB without losing text sharpness or uploading your private records to third-party cloud servers, check out ${targetUrl}. It processes everything offline right inside your browser.`
+    ];
+    return variations[Math.floor(Math.random() * variations.length)];
+  }
+
+  // UK Visa / VFS Global / TLScontact
+  if (subreddit.toLowerCase() === 'ukvisa') {
+    const variations = [
+      `VFS Global and TLScontact portals are super strict with the 5MB file size limit (and they often time out if a PDF is even close to 4.5MB).\n\nIf you're uploading bank statements or tenancy agreements, don't risk uploading your financial data to random cloud compressors. You can use ${targetUrl} — it compresses PDFs 100% locally in your browser memory without uploading anything to a server.`,
+      `Make sure your scans are under 4MB so the VFS upload portal doesn't throw a timeout error! If you need to compress or merge your supporting documents safely on your own device without cloud uploads, ${targetUrl} works completely in-browser.`
+    ];
+    return variations[Math.floor(Math.random() * variations.length)];
+  }
+
+  // Mortgage / FirstTimeHomeBuyer
+  if (subreddit.toLowerCase() === 'firsttimehomebuyer') {
+    const variations = [
+      `Whatever you do, please don't use generic free online PDF mergers for mortgage bank statements! Most of them upload your unredacted account numbers and SSN to remote cloud servers.\n\nIf your loan officer needs 2-3 months of statements combined into one file, use ${targetUrl} — it runs 100% client-side in your browser via WebAssembly so your financial statements never leave your computer.`,
+      `Underwriters always want consecutive bank statements (all pages included, even the blank "intentionally left blank" pages!). To combine them safely without uploading your bank account details to a third-party server, ${targetUrl} processes everything locally inside your browser.`
     ];
     return variations[Math.floor(Math.random() * variations.length)];
   }
