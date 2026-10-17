@@ -13,7 +13,7 @@ import {
   CheckCircle2,
   Lock
 } from 'lucide-react';
-import { TOOLS, CATEGORIES, ToolMeta } from '@/lib/toolsConfig';
+import { TOOLS, SPECIALIZED_SOLUTIONS, CATEGORIES, ToolMeta } from '@/lib/toolsConfig';
 import ToolCard from '@/components/ToolCard';
 import AdBanner from '@/components/AdBanner';
 
@@ -21,8 +21,27 @@ export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
+  const allTools: ToolMeta[] = useMemo(() => {
+    const mappedSpecialized: ToolMeta[] = SPECIALIZED_SOLUTIONS.map((sol) => ({
+      id: sol.id,
+      slug: sol.slug,
+      title: sol.title,
+      shortDesc: sol.shortDesc,
+      category: sol.slug.startsWith('merge-') ? 'organize' : 'optimize',
+      icon: sol.slug.startsWith('merge-') ? 'Layers' : 'Minimize2',
+      badge: sol.badge,
+      seoTitle: sol.seoTitle,
+      seoDescription: sol.seoDescription,
+      keywords: sol.keywords,
+      steps: [],
+      faqs: sol.faqs,
+      features: sol.tips,
+    }));
+    return [...TOOLS, ...mappedSpecialized];
+  }, []);
+
   const filteredTools = useMemo(() => {
-    return TOOLS.filter((tool) => {
+    return allTools.filter((tool) => {
       const matchesCategory =
         selectedCategory === 'all' || tool.category === selectedCategory;
       const matchesSearch =
@@ -31,7 +50,7 @@ export default function HomePage() {
         tool.keywords.some((k) => k.toLowerCase().includes(searchQuery.toLowerCase()));
       return matchesCategory && matchesSearch;
     });
-  }, [selectedCategory, searchQuery]);
+  }, [allTools, selectedCategory, searchQuery]);
 
   return (
     <div className="min-h-screen">
