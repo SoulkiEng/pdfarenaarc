@@ -62,11 +62,20 @@ Strict government and financial upload portals reject oversized PDFs, while clou
 
 ---
 
-## 📚 Technical Architecture & Guides
+## 📚 Technical Architecture, Portal Guides & Official Profiles
 
+### Dedicated Portal Troubleshooting Guides (`docs/`)
+- 🇺🇸 **[How to Fix US Visa CEAC & USCIS 2MB PDF Limit Error](./docs/fix-ceac-2mb-us-visa-pdf-limit.md)**
+- 🇨🇦 **[How to Combine & Compress PDFs Under 4MB for Canada IRCC & Express Entry](./docs/fix-ircc-4mb-canada-pr-pdf-limit.md)**
+- 🇬🇧 **[How to Compress & Unlock PDFs for UK Visa (UKVI, VFS Global & TLScontact)](./docs/fix-uk-visa-vfs-global-pdf-upload.md)**
+- 🏦 **[How to Merge Bank Statements, W-2s & 1099s for Mortgage Underwriting & Tax Portals](./docs/merge-bank-statements-mortgage-tax-filing.md)**
+
+### Official Ecosystem & Engineering Articles
+- **Google Chrome Web Store Extension**: [PDFArenaArc — Free & Private PDF Tools (`ihmkmfeppmeccbmkjkfgjphjaggbdmhn`)](https://chromewebstore.google.com/detail/pdfarenaarc-free-private/ihmkmfeppmeccbmkjkfgjphjaggbdmhn)
 - **AI Context Manifest (`llms.txt`)**: [https://pdfarenaarc.com/llms.txt](https://pdfarenaarc.com/llms.txt)
 - **Dev.to Engineering Guide**: [How to Compress & Merge PDFs for Visa, Tax & Mortgage Portals Without Uploading to Cloud Servers](https://dev.to/soulkieng/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-2jm9)
 - **Medium Architecture Overview**: [Client-Side WebAssembly PDF Processing for High-Privacy Portals](https://medium.com/@cypherrsolutions/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-bb8c88ed4eea)
+- **YCombinator / Hacker News Profile**: [cypherrsolution on Hacker News](https://news.ycombinator.com/user?id=cypherrsolution)
 
 ---
 
