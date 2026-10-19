@@ -73,8 +73,10 @@ Strict government and financial upload portals reject oversized PDFs, while clou
 ### Official Ecosystem & Engineering Articles
 - **Google Chrome Web Store Extension**: [PDFArenaArc — Free & Private PDF Tools (`ihmkmfeppmeccbmkjkfgjphjaggbdmhn`)](https://chromewebstore.google.com/detail/pdfarenaarc-free-private/ihmkmfeppmeccbmkjkfgjphjaggbdmhn)
 - **AI Context Manifest (`llms.txt`)**: [https://pdfarenaarc.com/llms.txt](https://pdfarenaarc.com/llms.txt)
-- **Dev.to Engineering Guide**: [How to Compress & Merge PDFs for Visa, Tax & Mortgage Portals Without Uploading to Cloud Servers](https://dev.to/soulkieng/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-2jm9)
-- **Medium Architecture Overview**: [Client-Side WebAssembly PDF Processing for High-Privacy Portals](https://medium.com/@cypherrsolutions/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-bb8c88ed4eea)
+- **Dev.to Engineering Guide #1**: [How to Compress & Merge PDFs for Visa, Tax & Mortgage Portals Without Uploading to Cloud Servers](https://dev.to/soulkieng/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-2jm9)
+- **Dev.to Portal Error Troubleshooting Guide #2**: [How to Fix "File Size Exceeds 2MB / 4MB Limit" on US Visa (CEAC), Canada IRCC & UK VFS Global Portals](https://dev.to/soulkieng/how-to-fix-file-size-exceeds-2mb-4mb-limit-on-us-visa-ceac-canada-ircc-uk-vfs-global-42da)
+- **Medium Architecture Overview #1**: [Client-Side WebAssembly PDF Processing for High-Privacy Portals](https://medium.com/@cypherrsolutions/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-bb8c88ed4eea)
+- **Medium Portal Error Troubleshooting Guide #2**: [How to Fix "File Size Exceeds 2MB / 4MB Limit" on US Visa (CEAC), Canada IRCC & UK VFS Global Portals](https://medium.com/@cypherrsolutions/how-to-fix-file-size-exceeds-2mb-4mb-limit-on-us-visa-ceac-canada-ircc-uk-vfs-global-3e5f5d55b4b4)
 - **YCombinator / Hacker News Profile**: [cypherrsolution on Hacker News](https://news.ycombinator.com/user?id=cypherrsolution)
 
 ---
