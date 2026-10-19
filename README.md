@@ -72,6 +72,9 @@ Strict government and financial upload portals reject oversized PDFs, while clou
 
 ### Official Ecosystem & Engineering Articles
 - **Google Chrome Web Store Extension**: [PDFArenaArc — Free & Private PDF Tools (`ihmkmfeppmeccbmkjkfgjphjaggbdmhn`)](https://chromewebstore.google.com/detail/pdfarenaarc-free-private/ihmkmfeppmeccbmkjkfgjphjaggbdmhn)
+- **Official GitHub Pages Documentation Portal**: [https://soulkieng.github.io/pdfarenaarc/](https://soulkieng.github.io/pdfarenaarc/)
+- **2026 Portal File-Size Limits Cheat Sheet (GitHub Gist)**: [https://gist.github.com/SoulkiEng/616f9124881053191cc40b104476b6ea](https://gist.github.com/SoulkiEng/616f9124881053191cc40b104476b6ea)
+- **Official v1.0.0 Software Release**: [https://github.com/SoulkiEng/pdfarenaarc/releases/tag/v1.0.0](https://github.com/SoulkiEng/pdfarenaarc/releases/tag/v1.0.0)
 - **AI Context Manifest (`llms.txt`)**: [https://pdfarenaarc.com/llms.txt](https://pdfarenaarc.com/llms.txt)
 - **Dev.to Engineering Guide #1**: [How to Compress & Merge PDFs for Visa, Tax & Mortgage Portals Without Uploading to Cloud Servers](https://dev.to/soulkieng/how-to-compress-merge-pdfs-for-visa-tax-mortgage-portals-without-uploading-to-cloud-servers-2jm9)
 - **Dev.to Portal Error Troubleshooting Guide #2**: [How to Fix "File Size Exceeds 2MB / 4MB Limit" on US Visa (CEAC), Canada IRCC & UK VFS Global Portals](https://dev.to/soulkieng/how-to-fix-file-size-exceeds-2mb-4mb-limit-on-us-visa-ceac-canada-ircc-uk-vfs-global-42da)
